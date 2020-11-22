@@ -1,0 +1,15 @@
+// para criar o package.json
+npm init -y
+
+// para instalar o express com uma versão específica
+npm i --save express@4.16.2 -E
+
+// para instalar o nodemon em devdependencies
+npm i --save-dev nodemon
+
+// com o nodemon é possível executar o npm abaixo
+npm start
+
+// para fazer o parser do body que veio na requisição
+// é usado junto com o Node
+npm  i --save body-parser
